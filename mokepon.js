@@ -45,7 +45,7 @@ let vidasEnemigo = 3
 let lienzo = mapa.getContext("2d")
 let intervalo
 let mapaBackground = new Image()
-mapaBackground.src = './assets/mokemap.png'
+mapaBackground.src = 'mokemap.png'
 let alturaQueBuscamos
 let anchoDelMapa = window.innerWidth - 20
 const anchoMaximoDelMapa = 350
@@ -86,17 +86,17 @@ class Mokepon {
     }
 }
 
-let hipodoge = new Mokepon('Hipodoge', './assets/mokepons_mokepon_hipodoge_attack.png', 5, './assets/hipodoge.png')
+let hipodoge = new Mokepon('Hipodoge', 'mokepons_mokepon_hipodoge_attack.png', 5, 'hipodoge.png')
 
-let capipepo = new Mokepon('Capipepo', './assets/mokepons_mokepon_capipepo_attack.png', 5, './assets/capipepo.png')
+let capipepo = new Mokepon('Capipepo', 'mokepons_mokepon_capipepo_attack.png', 5, 'capipepo.png')
 
-let ratigueya = new Mokepon('Ratigueya', './assets/mokepons_mokepon_ratigueya_attack.png', 5, './assets/ratigueya.png')
+let ratigueya = new Mokepon('Ratigueya', 'mokepons_mokepon_ratigueya_attack.png', 5, 'ratigueya.png')
 
-let hipodogeEnemigo = new Mokepon('Hipodoge', './assets/mokepons_mokepon_hipodoge_attack.png', 5, './assets/hipodoge.png')
+let hipodogeEnemigo = new Mokepon('Hipodoge', 'mokepons_mokepon_hipodoge_attack.png', 5, 'hipodoge.png')
 
-let capipepoEnemigo = new Mokepon('Capipepo', './assets/mokepons_mokepon_capipepo_attack.png', 5, './assets/capipepo.png')
+let capipepoEnemigo = new Mokepon('Capipepo', 'mokepons_mokepon_capipepo_attack.png', 5, 'capipepo.png')
 
-let ratigueyaEnemigo = new Mokepon('Ratigueya', './assets/mokepons_mokepon_ratigueya_attack.png', 5, './assets/ratigueya.png')
+let ratigueyaEnemigo = new Mokepon('Ratigueya', 'mokepons_mokepon_ratigueya_attack.png', 5, 'ratigueya.png')
 
 hipodoge.ataques.push(
     { nombre: '💧', id: 'boton-agua' },
