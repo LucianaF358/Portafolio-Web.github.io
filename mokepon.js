@@ -86,17 +86,22 @@ class Mokepon {
     }
 }
 
+
 let hipodoge = new Mokepon('Hipodoge', 'mokepons_mokepon_hipodoge_attack.png', 5, 'hipodoge.png')
 
 let capipepo = new Mokepon('Capipepo', 'mokepons_mokepon_capipepo_attack.png', 5, 'capipepo.png')
 
 let ratigueya = new Mokepon('Ratigueya', 'mokepons_mokepon_ratigueya_attack.png', 5, 'ratigueya.png')
 
+/* EL ERROR SE ENCUENTRA ENTRE LAS LINEAS DE CODIGO 90 A LA 102, REVISAR EL BOTON DE SELECCIONAR PARA APLICAR O DETENER LOS DUPLICADOS */
+
 let hipodogeEnemigo = new Mokepon('Hipodoge', 'mokepons_mokepon_hipodoge_attack.png', 5, 'hipodoge.png')
 
 let capipepoEnemigo = new Mokepon('Capipepo', 'mokepons_mokepon_capipepo_attack.png', 5, 'capipepo.png')
 
 let ratigueyaEnemigo = new Mokepon('Ratigueya', 'mokepons_mokepon_ratigueya_attack.png', 5, 'ratigueya.png')
+
+
 
 hipodoge.ataques.push(
     { nombre: '💧', id: 'boton-agua' },
